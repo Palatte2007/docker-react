@@ -6,4 +6,4 @@ before_install:
    - docker build -t Palatte2007/docker-react -f Dockerfile.dev .
 
 scripts:
-   - docker run Palatte2007/docker-react npm run test -- --coverage
+   - docker run palatte2007/docker-react npm run test -- --coverage
